@@ -52,6 +52,9 @@ content:
       - name: research_intro
         label: Research introduction
         type: text
+      - name: research_focus
+        label: Research focus (Education card)
+        type: text
       - name: email
         label: Contact email
         type: string
@@ -89,6 +92,24 @@ content:
       - name: image
         label: Project photo
         type: image
+  - name: teaching
+    label: Teaching Courses
+    type: file
+    path: data/teaching.json
+    format: json
+    list: true
+    operations:
+      delete: false
+    fields:
+      - name: course_number
+        label: Course number
+        type: string
+      - name: title
+        label: Course title
+        type: string
+      - name: description
+        label: Brief description
+        type: text
   - name: publications
     label: Publications
     type: file
