@@ -1,0 +1,20 @@
+[
+  {
+    "category": "Nutrient management",
+    "title": "Nitrogen & sulfur in canola",
+    "description": "Evaluating fertilizer rates and sulfur sources, crop responses, and the role of soil and environmental conditions in canola production in North Dakota.",
+    "image": ""
+  },
+  {
+    "category": "Cropping systems",
+    "title": "Cover crops & corn nitrogen",
+    "description": "Investigating interseeded cover crops, soil health, nitrogen management, and corn performance through multi-year, multi-location field research.",
+    "image": ""
+  },
+  {
+    "category": "Decision support",
+    "title": "Soil–water–plant analytics",
+    "description": "Integrating field measurements, soil moisture, weather, UAV and satellite data, GIS, and statistical models to interpret agronomic outcomes.",
+    "image": ""
+  }
+]
