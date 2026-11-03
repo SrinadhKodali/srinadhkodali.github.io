@@ -1,0 +1,17 @@
+[
+  {
+    "course_number": "PS 213",
+    "title": "Soil Science Laboratory",
+    "description": "Supported laboratory instruction and hands-on activities introducing soil properties, sampling, and interpretation."
+  },
+  {
+    "course_number": "PS/MICR 421",
+    "title": "Soil Microbiology Laboratory",
+    "description": "Supported practical instruction in soil microorganisms and laboratory methods used to study soil biological processes."
+  },
+  {
+    "course_number": "PLSS 3410",
+    "title": "Soil Science Laboratory",
+    "description": "Assisted students with soil science laboratory exercises, observations, and applied soil assessments."
+  }
+]
