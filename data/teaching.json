@@ -1,7 +1,7 @@
 [
   {
     "course_number": "PS 213",
-    "title": "Soil Science Laboratory",
+    "title": "Plant Science Laboratory",
     "description": "Supported laboratory instruction and hands-on activities introducing soil properties, sampling, and interpretation."
   },
   {
@@ -13,5 +13,10 @@
     "course_number": "PLSS 3410",
     "title": "Soil Science Laboratory",
     "description": "Assisted students with soil science laboratory exercises, observations, and applied soil assessments."
+  },
+  {
+    "course_number": "AGBU 3320",
+    "title": "Introduction to Systems Thinking",
+    "description": "Supported instruction in systems thinking, feedback relationships, causal-loop diagrams, and systems approaches to understanding complex agricultural and environmental problems at Texas A&M University–Kingsville."
   }
 ]
