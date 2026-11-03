@@ -1,0 +1,139 @@
+media:
+  input: media
+  output: /media
+content:
+  - name: site
+    label: Home, About & Contact
+    type: file
+    path: data/site.json
+    format: json
+    operations:
+      delete: false
+    fields:
+      - name: eyebrow
+        label: Top label
+        type: string
+      - name: name
+        label: Your name
+        type: string
+      - name: headline
+        label: Homepage introduction
+        type: text
+      - name: role
+        label: Current role
+        type: string
+      - name: hero_image
+        label: Homepage background image
+        type: image
+      - name: headshot
+        label: Professional headshot
+        type: image
+      - name: about_heading
+        label: About heading
+        type: string
+      - name: about_intro
+        label: About first paragraph
+        type: text
+      - name: about_more
+        label: About second paragraph
+        type: text
+      - name: research_intro
+        label: Research introduction
+        type: text
+      - name: email
+        label: Contact email
+        type: string
+      - name: location
+        label: Location
+        type: string
+      - name: resume
+        label: Resume PDF path
+        type: file
+      - name: extension
+        label: Extension and outreach
+        type: text
+      - name: skills
+        label: Technical skills
+        type: string
+        list: true
+  - name: research
+    label: Research Projects
+    type: file
+    path: data/research.json
+    format: json
+    list: true
+    operations:
+      delete: false
+    fields:
+      - name: category
+        label: Category
+        type: string
+      - name: title
+        label: Project title
+        type: string
+      - name: description
+        label: Description
+        type: text
+      - name: image
+        label: Project photo
+        type: image
+  - name: publications
+    label: Publications
+    type: file
+    path: data/publications.json
+    format: json
+    list: true
+    operations:
+      delete: false
+    fields:
+      - name: authors
+        label: Authors and year
+        type: text
+      - name: title
+        label: Publication title
+        type: text
+      - name: journal
+        label: Journal and citation
+        type: string
+      - name: url
+        label: DOI or article URL
+        type: string
+  - name: experience
+    label: Professional Experience
+    type: file
+    path: data/experience.json
+    format: json
+    list: true
+    operations:
+      delete: false
+    fields:
+      - name: title
+        label: Position
+        type: string
+      - name: organization
+        label: Institution
+        type: string
+      - name: period
+        label: Dates
+        type: string
+      - name: description
+        label: Description
+        type: text
+  - name: education
+    label: Education
+    type: file
+    path: data/education.json
+    format: json
+    list: true
+    operations:
+      delete: false
+    fields:
+      - name: degree
+        label: Degree
+        type: string
+      - name: institution
+        label: Institution
+        type: string
+      - name: date
+        label: Completion date
+        type: string
