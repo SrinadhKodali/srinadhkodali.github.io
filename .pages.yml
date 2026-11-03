@@ -25,9 +25,21 @@ content:
       - name: hero_image
         label: Homepage background image
         type: image
+      - name: hero_position_x
+        label: Background horizontal position (0 left, 50 center, 100 right)
+        type: number
+      - name: hero_position_y
+        label: Background vertical position (0 top, 50 center, 100 bottom)
+        type: number
       - name: headshot
         label: Professional headshot
         type: image
+      - name: headshot_position_x
+        label: Headshot horizontal position (0-100)
+        type: number
+      - name: headshot_position_y
+        label: Headshot vertical position (0-100)
+        type: number
       - name: about_heading
         label: About heading
         type: string
